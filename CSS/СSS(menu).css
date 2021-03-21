@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #F6F6f6;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: url(../IMG/fonч.jpg); 
+  color: #fff; 
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;
+  width:100%;
+}
+.vin{
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.control_1{
+  order: 1;
+  margin-top: -170px;
+}
+.control_2{
+  order: 3;
+  margin-top: -170px;
+}
+.control_3{
+  order: 2;
+  margin-top: -170px;
+}
+h1{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 50px;
+  padding: 50px 0 0 1px;
+  text-align: center;
+  color: rgb(71, 59, 139);
+  margin: 0px;
+}
+.control{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  min-height: 100px;
+}
+.control:hover{
+  transition: 0.5s;
+  transform: scale(1.09);
+}
+.top_control{
+
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 20px;
+           /* width: 1000px; /* Ширина элемента в пикселах */
+           /* padding: 10px; /* Поля вокруг текста */
+           /* margin: auto; /* Выравниваем по центру */
+  background: rgb(11, 116, 161); /* Цвет фона */
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  border: 4px solid rgb(61, 146, 185); /* Белая рамка */
+}
+.main_content_items{  
+  display: flex;
+  min-height: 200px;
+  flex-direction: row;
+  justify-content: center; 
+  flex-wrap: wrap;     
+  align-items: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 15px;
+          /*width: 350px;  Ширина элемента в пикселах */
+          /*padding: 10px; /* Поля вокруг текста */
+          /*margin: auto; /* Выравниваем по центру */
+  background: lightgoldenrodyellow; /* Цвет фона */
+  color: #000000;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  border: 3px groove #fff;
+}
+.main_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      
+  align-items: center;
+
+  width: 200px;
+}
+img{
+  width: 40px;
+}
+.names{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #ffffff; 
+}
+#div1{
+  display: none;
+}
+.button4 {
+  position: relative;
+  display: inline-block;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  user-select: none;
+  margin-top: 10px;
+  padding: .3em 1em;
+
+  border: none;
+  border-radius: 3px;
+  background: rgb(62, 111, 167) linear-gradient(rgb(107, 129, 199) , rgb(11, 116, 161));
+  box-shadow: inset rgb(94, 149, 221) 0 -1px 1px, inset 0 1px 1px rgb(81, 91, 235), rgb(35, 37, 170) 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+.button4:hover {
+  cursor: pointer;
+}
+.button4:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+@-webkit-keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+.for{
+  text-transform: capitalize;
+  width: 200px;
+  height: 20px;
+  font-size: 16px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  border-radius: 8px;
+  outline: none;
+  color: rgb(11, 116, 161);
+  border: 4px solid rgb(11, 116, 161);
+  font-weight: bold;
+  background-color: #ffffbf;
+}
+
+/*
+.regulations{
+  display: flex;
+  flex-direction: row;
+  justify-content:  center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #ffffff;
+  letter-spacing: .15em;
+}

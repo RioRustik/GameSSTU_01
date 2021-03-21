@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: papayawhip;
+}
+html, body{
+    width:  100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.hp{ 
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.die{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#game{
+    display: block;
+    background-color: #5f9ea0;
+    position: fixed;
+    overflow: auto;
+    height: 100vh;
+    max-width: 100%;
+    z-index: -999;
+}
+#player, #enemy, .bomb, #time{
+    display: block;
+    position: absolute;
+    height: 100vh;
+    max-width: 100%
+}
+#block, #block1{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 105, 167, 0.363);
+    width: 400px;
+    height: 200px;
+    z-index: 999;
+    color: rgb(218, 200, 200);
+    border-radius: 25px;
+}
+
+
+/*mao map filter forEach reduce перебор полей объекта*/
