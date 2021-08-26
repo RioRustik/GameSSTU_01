@@ -1,2 +1,1 @@
-# Game
-Игра написанная на "ванильном" JS
+# Game Native script
