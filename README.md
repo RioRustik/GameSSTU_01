@@ -1,1 +1,1 @@
-# Game Native script
+# Game Native JS
